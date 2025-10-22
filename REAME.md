@@ -68,7 +68,15 @@ pip install -r requirements.txt
 ### 4. Add Groq API Key:
 ```bash
 Get a free API key from Groq.
-Paste the key into the --GROQ_API_KEY-- variable inside the --api/agent_orchestrator.py -- file. 
+Paste the key into the --GROQ_API_KEY-- variable inside the --api/agent_orchestrator.py -- file.
+```
+## 4.1 In case backend gives invalid Api key error , Do this immediately: 
+```bash
+# Use this name if you are using Groq
+$env:GROQ_API_KEY = "YOUR_API_KEY"
+
+# Or use whatever name you found in your code (e.g., OPENAI_API_KEY)
+! BUT REMEMBER ITS ONLY ACTIVE UNTIL YOUR CURRENT POWERSHELL SESSION
 ```
 **5. Start Databases (Docker):**
 ```bash

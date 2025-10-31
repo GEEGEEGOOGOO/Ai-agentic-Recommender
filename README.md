@@ -2,15 +2,6 @@
 
 This project is an advanced, full-stack application demonstrating an AI-powered e-commerce assistant. It features an interactive Streamlit chat interface, a FastAPI backend, and an autonomous LangChain agent that leverages multiple databases (Vector, Graph, Cache) to provide intelligent, contextual product recommendations.
 
----
-
-## 🚀 Demo
-
-*(**Action Required:** Embed a GIF or link to a short Loom/YouTube video showing the Streamlit chat interface interacting with the agent)*
-
-
-
----
 
 ## Key Features
 
